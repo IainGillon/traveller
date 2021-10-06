@@ -3,13 +3,11 @@ const Traveller = function(journeys) {
 };
 
 Traveller.prototype.getJourneyStartLocations = function() {
-  
-  this.journeys.startLocation.forEach((location) => {
-    return this.journeys.startLocation
-  }) 
+  return this.journeys.startLocation
+} 
   
     
-  };
+  
 
   
   
@@ -50,7 +48,8 @@ return total
 
 Traveller.prototype.getUniqueModesOfTransport = function () {
   const allModesOfTransport = []
-  result = this.journeys.filter()
+  result = this.journeys.transport.filter(mode >= mode != mode)
+  return result
 
 
 };
